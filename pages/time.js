@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 function Tempo(props) {
   const dynamicDate = new Date();
   const dynamicDateString = dynamicDate.toGMTString();
