@@ -7,6 +7,7 @@ function About() {
       <Link href="/">
         <a>Acessar página Home</a>
       </Link>
+      <br/>
       <Link href="/time">
         <a>Acessar Relógio</a>
       </Link>

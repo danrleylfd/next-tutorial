@@ -9,6 +9,7 @@ function Tempo(props) {
       <Link href="/">
         <a>Acessar página Home</a>
       </Link>
+      <br/>
       <Link href="/about">
         <a>Acessar página sobre</a>
       </Link>
