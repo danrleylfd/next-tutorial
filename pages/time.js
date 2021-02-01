@@ -13,7 +13,8 @@ export function getStaticProps() {
   const staticDate = new Date();
   const staticDateString = staticDate.toGMTString();
   return {
-    props: { staticDateString }
+    props: { staticDateString },
+    revalidate: 3
   };
 }
 
