@@ -3,8 +3,15 @@ function Tempo(props) {
   const dynamicDateString = dynamicDate.toGMTString();
   return (
     <div>
+      <h1>Relógio</h1>
       <div>{dynamicDateString} (dinâmico)</div>
       <div>{props.staticDateString} (estático)</div>
+      <Link href="/">
+        <a>Acessar página Home</a>
+      </Link>
+      <Link href="/about">
+        <a>Acessar página sobre</a>
+      </Link>
     </div>
   );
 }
